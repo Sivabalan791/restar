@@ -1,0 +1,70 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  
+    font-family: "Young Serif", serif;
+
+}
+
+ .section-one{
+    background-color: black;
+    color: white;
+   padding: 25px;
+   text-align: center;
+  
+}
+.section-one:hover{
+    color: gray;
+    cursor: pointer;
+}
+.section{
+     margin: 20px;
+    height: 251px;
+    border: 2px solid black;
+    padding: 27px;
+   
+   
+}   
+.container{
+   gap: 10px;
+    display: flex;
+}
+.section input{
+   margin-bottom: 10px;
+    padding:5px ;
+    margin-left: 35%;
+    background-color: black;
+    color: white;
+}
+.section input:hover{
+
+    cursor: pointer;
+}
+
+
+.section-form{
+
+background-color: black;
+color: white;
+padding-bottom: 50px;
+text-align: center;
+
+}
+.section-form table{
+
+    display: inline;
+    align-items: center;
+}
+button {
+
+    background-color: yellow;
+    color: white;
+    border: 5px;
+    padding: 10px 150px;
+    margin:- 100px;
+
+}
